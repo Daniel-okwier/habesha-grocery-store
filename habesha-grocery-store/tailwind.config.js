@@ -2,23 +2,21 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx}",
   ],
   theme: {
     extend: {
       colors: {
-        habesha: {
-          green: '#1B3022',
-          gold: '#D4AF37',
-          red: '#8B0000',
-          earth: '#4B3621',
-        }
+        habeshaGreen: "#1F7A4D",
+        habeshaGold: "#C9A14A",
+        habeshaRed: "#A8342D",
+        habeshaDark: "#0F1F17",
       },
       fontFamily: {
-        serif: ['Playfair Display', 'serif'],
-        sans: ['Inter', 'sans-serif'],
-      }
+        heading: ["Poppins", "sans-serif"],
+        body: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],
-}
+};
