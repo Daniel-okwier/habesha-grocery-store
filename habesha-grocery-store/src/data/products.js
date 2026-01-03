@@ -133,5 +133,11 @@ export const products = [
     image: "/src/assets/images/products/olive-oil.jpg",
     category: "Personal Care",
     description: "Used for skin and traditional hair treatments."
+  },
+   {
+    name: "Olive & Essential Oils",
+    image: "/src/assets/images/products/olive-oil.jpg",
+    category: "Personal Care",
+    description: "Used for skin and  hair treatments."
   }
 ];
