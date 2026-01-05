@@ -16,7 +16,7 @@ export default function Hero() {
           Welcome to Habesha Grocery Store
         </h1>
         <p className="text-white text-lg md:text-xl mb-8">
-          Your destination for authentic Ethiopian & Eritrean ingredients.
+          Your destination for authentic Ethiopian ingredients.
         </p>
         <a
           href="#products"
